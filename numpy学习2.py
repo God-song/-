@@ -1,0 +1,20 @@
+import numpy as np
+#范围类的整数
+a=np.random.randint(0,10,10)
+print(a)
+#0-1的均匀分布
+b=np.random.rand(10)
+print(b)
+#正太分布,标准的正态分布
+c=np.random.randn(10)
+print(c)
+#生成指定正态分布
+d=np.random.normal(4,1,10)
+print(d)
+#这两个和前面的rand都是0-1均匀分布
+e=np.random.random(20)
+print(e)
+f=np.random.ranf(20)
+#指定均匀分布
+g=np.random.uniform(-1,1,10)
+print(g)
